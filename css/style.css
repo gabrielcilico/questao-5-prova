@@ -1,0 +1,47 @@
+*,
+body,
+a,
+ul,
+li,
+main {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-image: linear-gradient(to bottom, #234a07, #3c8706);
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.banner {
+  background: url(../img/phone.png) no-repeat;
+  display: flex;
+}
+.conteudo,
+.banner {
+  width: 45%;
+  height: 100%;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  color: aliceblue;
+}
+.conteudo h1 {
+  font-size: 4em;
+}
+.emailSender {
+  margin-top: 15px;
+}
+button,
+input {
+  padding: 10px 15px;
+  border: 15px;
+}
